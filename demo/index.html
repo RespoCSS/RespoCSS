@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RespoCSS</title>
+
+    <!-- RespoCSS -->
+    <link href="../css/respo.css" rel="stylesheet">
+    <link href="onlyfordemo.css" rel="stylesheet">
+	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  </head>
+  <body>
+    
+	<div class="container">
+		<div class="alert blue"><i class="fa fa-info"></i> This framework is still experimental. Further improvements, examples and documents are already planned.</b></div>
+		
+		<div class="grid">			
+			<!-- Page -->
+			<div class="grid-3">
+				<h3>Menu</h3>
+				<ul class="menu">
+					<li><a href="#alert">Alert</a></li>
+					<li><a href="#button">Button</a></li>
+					<li><a href="#form">Form</a></li>
+					<li><a href="#grid">Grid</a></li>
+					<li><a href="#menu">Menu</a></li>
+					<li><a href="#table">Table</a></li>
+					<li><a href="#text">Text</a></li>
+				</ul>
+				
+				<h3>About</h3>
+				<div class="box">
+					<p>Copyright (c) 2015 <a href="http://m4ur1c3pr3.net">Maurice Preuß</a><p>
+					<p><a href="https://github.com/RespoCSS/RespoCSS">This Framework is available under the MIT License (MIT).</a></p>
+				</div>
+			</div>
+			<div class="grid-9">
+				<!-- Alert -->
+				<h3 id="alert">Alert</h3>
+				<div class="box">
+					<p>Example alerts:</p>
+					<p class="alert"><i class="fa fa-magic"></i> This is a default Message!</p>
+					<p class="alert red"><i class="fa fa-times"></i> This is a error Message!</p>
+					<p class="alert green"><i class="fa fa-check"></i> This is a success Message!</p>
+					<p class="alert blue"><i class="fa fa-info"></i> This is a info Message!</p>
+					<p class="alert yellow"><i class="fa fa-exclamation-triangle"></i> This is a warning Message!</p>
+				</div>
+				
+				<!-- Button -->
+				<h3 id="button">Button</h3>
+				<div class="box">
+					<p>Example buttons:</p>
+					<p>
+						<a href="" class="button">Button</a>
+						<a href="" class="button black">Button</a>
+						<a href="" class="button blue">Button</a>
+						<a href="" class="button green">Button</a>
+						<a href="" class="button yellow">Button</a>
+						<a href="" class="button red">Button</a>
+					</p>
+				</div>
+				
+				<!-- Form -->
+				<h3 id="form">Form</h3>
+				<div class="box">
+					<p>Example form:</p>
+					<form class="form">
+						<label>Username:</label>
+						<input class="input" type="text">
+						
+						<label>Password:</label>
+						<input class="input" type="password">
+						
+						<button class="button blue">Logon</button> or <button class="button">Register</button>
+					</form>
+				</div>
+				
+				<!-- Grid -->
+				<h3 id="grid">Grid</h3>
+				<div class="box">
+					<p>Example grid:</p>
+					
+					<div class="grid">
+						<!-- Grid demo -->
+						<div class="grid-12">
+							<h3>.grid-12</h3>
+							<div class="box">
+								<p>Data</p>
+							</div>
+						</div>
+						<div class="grid-4">
+							<h3>.grid-4</h3>
+							<div class="box">
+								<p>Data</p>
+							</div>
+						</div>
+						<div class="grid-8">
+							<h3>.grid-8</h3>
+							<div class="box">
+								<p>Data</p>
+							</div>
+						</div>
+						<div class="grid-3">
+							<h3>.grid-3</h3>
+							<div class="box">
+								<p>Data</p>
+							</div>
+						</div>
+						<div class="grid-3">
+							<h3>.grid-3</h3>
+							<div class="box">
+								<p>Data</p>
+							</div>
+						</div>
+						<div class="grid-3">
+							<h3>.grid-3</h3>
+							<div class="box">
+								<p>Data</p>
+							</div>
+						</div>
+						<div class="grid-3">
+							<h3>.grid-3</h3>
+							<div class="box">
+								<p>Data</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Menu -->
+				<h3 id="menu">Menu</h3>
+				<div class="box">
+					<p>Example menu:</p>
+					<div class="grid">
+						<div class="grid-6">
+							<h3>Menu</h3>
+							<ul class="menu">
+								<li><a href="#">Data 1</a></li>
+								<li><a href="#">Data 2</a></li>
+								<li><a href="#">Data 3</a></li>
+								<li><a href="#">Data 4</a></li>
+								<li><a href="#">Data 5</a></li>
+							</ul>
+						</div>
+						<div class="grid-6">
+							<h3>Menu</h3>
+							<ul class="menu blue">
+								<li><a href="#">Data 1</a></li>
+								<li><a href="#">Data 2</a></li>
+								<li><a href="#">Data 3</a></li>
+								<li><a href="#">Data 4</a></li>
+								<li><a href="#">Data 5</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Table -->
+				<h3 id="table">Table</h3>
+				<div class="box">
+					<p>Example table:</p>
+					
+					<table class="table">
+						<thead>
+							<th>#</th>
+							<th>Name</th>
+							<th>E-Mail</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>Jane Doe</td>
+								<td>jane@example.com</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>John Doe</td>
+								<td>john@example.com</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				
+				<!-- Text -->
+				<h3 id="text">Text</h3>
+				<div class="box">
+					<p>Soon.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+  </body>
+</html>
